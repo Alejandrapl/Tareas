@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Quicksand", sans-serif;
   }
-  
+
   :root {
     --very-light-pink: #c7c7c7;
     --white: #ffffff;
@@ -10,12 +10,12 @@ body {
     --black: #000000;
     --hospital-green: #acd9b2;
     --dark: #232830;
-  
+
     --lg: 18px;
     --md: 16px;
     --sm: 14px;
   }
-  
+
   .container {
     display: flex;
     flex-direction: column;
@@ -23,8 +23,9 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
+    margin: 0;
   }
-  
+
   .position {
     width: 90%;
     display: flex;
@@ -35,18 +36,20 @@ body {
     align-self: center;
     margin-bottom: 48px;
   }
-  
+
   .form {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
+    max-width: 400px;
   }
-  
+
   .form label {
     font-size: var(--md);
     font-weight: bold;
   }
-  
+
   .form .email {
     background-color: var(--text-input-field);
     color: var(--very-light-pink);
@@ -55,7 +58,7 @@ body {
     font-size: var(--sm);
     padding: 10px;
   }
-  
+
   .form .pwd {
     background-color: var(--text-input-field);
     color: var(--very-light-pink);
@@ -64,7 +67,7 @@ body {
     font-size: var(--sm);
     padding: 10px;
   }
-  
+
   .form .primary-button {
     background-color: var(--hospital-green);
     color: var(--white);
@@ -74,7 +77,7 @@ body {
     padding: 15px;
     margin-top: 30px;
   }
-  
+
   .link {
     text-align: center;
     color: var(--hospital-green);
@@ -82,13 +85,7 @@ body {
     margin-top: 25px;
     font-size: var(--sm);
   }
-  
-  .btn-down {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 25vh;
-  }
-  
+
   .secundary-button {
     background-color: var(--white);
     color: var(--hospital-green);
@@ -98,4 +95,10 @@ body {
     font-size: var(--lg);
     padding: 15px;
   }
-  
+
+  .sign-up {
+    position: absolute;
+    top: calc(100vh - 60px);
+    width: 90%;
+    max-width: 400px ;
+  }
