@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+:root {
+  --very-light-pink: #c7c7c7;
+  --white: #ffffff;
+  --text-input-field: #f7f7f7;
+  --black: #000000;
+  --hospital-green: #acd9b2;
+  --dark: #232830;
+
+  --lg: 18px;
+  --md: 16px;
+  --sm: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.logo {
+  width: 50vw;
+  align-self: center;
+  margin: 20px 0 20px 0;
+}
+
+.title {
+  font-size: var(--lg);
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  text-align: center;
+  margin: 0 32px 0 32px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background-color: var(--text-input-field);
+  overflow: hidden;
+  margin: 20px 0 20px 0;
+}
+
+.mail {
+  width: 20vw;
+  height: 20vh;
+}
+
+.primary-button {
+  background-color: var(--hospital-green);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  font-size: var(--lg);
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.aling {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.text-down {
+  color: var(--very-light-pink);
+  font-size: var(--sm);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--hospital-green);
+}
